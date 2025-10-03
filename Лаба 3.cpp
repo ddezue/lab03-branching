@@ -24,7 +24,7 @@ int main() {
   cout << fixed << setprecision(numOfDigitsAfterTheDecimalPoint);
 
   for (loopIteration = 0; loopIteration < numOfIterations; ++loopIteration) { 
-    cout << "S2 =";
+    cout << "S2(мм) =";
     cin >> s2;
 
     sg = diameter * sqrt(0.25 * pow(s1 / diameter, 2.0) + pow(s2 / diameter, 2.0));
